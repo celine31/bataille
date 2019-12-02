@@ -4,6 +4,10 @@ public enum ModelShip {
   DESTROYER(3),
   CRUISER(4);
 
+  public int getLength() {
+    return length;
+  }
+
   private int length;
 
   ModelShip(int length){

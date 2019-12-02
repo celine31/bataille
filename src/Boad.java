@@ -21,6 +21,6 @@ public class Boad {
 
   private ArrayList tab_cordinates;
 
-  public void isOnSquare()
+  //public void isOnSquare();
 
   }
