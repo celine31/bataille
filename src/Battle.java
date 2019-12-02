@@ -12,9 +12,5 @@ public class Battle {
       System.out.println(myModel == ModelShip.CARRIER);
       System.out.println(myModel == ModelShip.DESTROYER);
 
-     Table table= new Table();
-
-      System.out.println("");
-
-  }
+     }
 }
