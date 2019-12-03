@@ -1,18 +1,18 @@
 public enum ModelShip {
+  // enum for ship type with
+
   CARRIER(5),
   SUBMARINE(2),
   DESTROYER(3),
   CRUISER(4);
 
   public int getLength() {
-    return length;
+    return this.length;
   }
 
-  private int length;
+  private final int length;
 
   ModelShip(int length){
     this.length=length;
   }
-
-
 }
