@@ -1,10 +1,10 @@
 public class Coordinates {
-  //classe des coordonnées
-  public int getX() {
+  //class coordinates
+  public String getX() {
     return x;
   }
 
-  public void setX(int x) {
+  public void setX(String x) {
     this.x = x;
   }
 
@@ -16,7 +16,9 @@ public class Coordinates {
     this.y = y;
   }
 
-  private int x;
+  private String x;
   private int y;
+
+
 
 }

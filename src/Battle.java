@@ -1,7 +1,7 @@
 import javax.sound.midi.SysexMessage;
 
 public class Battle {
-  //programme principal
+  // primary programm
     public static void main(String[] args){
 
       ModelShip myModel = ModelShip.CARRIER;

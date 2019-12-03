@@ -1,8 +1,20 @@
 public class HidingBoard {
-//classe du tableau des bateaux
-  //public void squareState(coordinates)
+//class table of boads
 
-  //public void putShip(board)
+Coordinates coordinates= new Coordinates();
+
+  public void squareState(Coordinates coordinates){
+    throw new UnsupportedOperationException();
+  }
+
+  public void putShip(Board board){
+    Board ship= new Board(ModelShip.CARRIER, Direction.WEST, coordinates);
+    Board ship2 = new Board(ModelShip.SUBMARINE, Direction.NORTH,coordinates);
+    Board ship3 = new Board(ModelShip.DESTROYER, Direction.SUD,coordinates);
+    Board ship4 = new Board(ModelShip.CRUISER, Direction.WEST,coordinates);
+
+    //throw new UnsupportedOperationException();
+  }
 
 
 

@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ea198f2-e533-4594-b1ea-a058b8bea6c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Coordinates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StateBoard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Battle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Battle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Direction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coordinates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HidingBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HidingBoard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ModelShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ModelShip.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StateSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StateSquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Table.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -110,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575299656664</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="affichage d'un tableau pour test, modifications classes">
+      <created>1575367545900</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575367545900</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +137,7 @@
     <MESSAGE value="project naval battle" />
     <MESSAGE value="ajout enum Modelship" />
     <MESSAGE value="Mise à jour des classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mise à jour des classes" />
+    <MESSAGE value="affichage d'un tableau pour test, modifications classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="affichage d'un tableau pour test, modifications classes" />
   </component>
 </project>

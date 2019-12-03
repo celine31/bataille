@@ -1,14 +1,16 @@
 public class StateSquare {
-  //classe de l'état des cases
-  public String getState() {
+  //class state of the square
+  //True = vacant
+
+  public Boolean getState() {
     return state;
   }
 
-  public void setState(String state) {
+  public void setState(Boolean state) {
     this.state = state;
   }
+  private Boolean state;
 
-  private String state;
 
 
 }

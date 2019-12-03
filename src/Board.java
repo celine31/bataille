@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.function.DoubleToIntFunction;
 
 public class Board {
   //class board
@@ -6,14 +7,30 @@ public class Board {
   private Direction direction;
   private Coordinates coordinates;
 
+
   Board(ModelShip model, Direction direction, Coordinates coordinates) {
     this.model = model;
     this.direction = direction;
     this.coordinates = coordinates;
   }
-  //public void isOnSquare(coordinates);
 
-  //public void isSunk();
+  //TODO
+  public void isOnSquare(Coordinates coordinates) {
 
-  //public void shotAtt():
+    throw new UnsupportedOperationException();
+  }
+  public void isSunk(Board board) {
+      if(model.getLength()==0) {
+        System.out.println("Coulé");
+      }
+
+    throw new UnsupportedOperationException();
+  }
+  public void shotAtt(Board board, Coordinates coordinates){
+      if (board.coordinates == coordinates ){
+
+        System.out.println("touché");
+      }
+    throw new UnsupportedOperationException();
+  }
 }

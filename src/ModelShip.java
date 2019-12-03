@@ -1,5 +1,5 @@
 public enum ModelShip {
-  // enum for ship type with
+  // enum for ship type with features
 
   CARRIER(5),
   SUBMARINE(2),
