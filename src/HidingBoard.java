@@ -2,7 +2,7 @@
 public class HidingBoard {
 //class table of boads
 
-Coordinates coordinates= new Coordinates();
+//Coordinates coordinates= new Coordinates();
 
   public void squareState(String coordinates){
     throw new UnsupportedOperationException();

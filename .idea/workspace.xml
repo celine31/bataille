@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ea198f2-e533-4594-b1ea-a058b8bea6c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Equals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EqualsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bataille.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bataille.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coordinates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Direction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HidingBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HidingBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StateSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StateSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Table.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -74,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Grille">
+  <component name="RunManager" selected="JUnit.EqualsTest.testHashCode">
     <configuration name="Battle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Battle" />
       <module name="bataille" />
@@ -96,8 +89,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EqualsTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bataille" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EqualsTest" />
+      <option name="METHOD_NAME" value="testEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EqualsTest.testHashCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bataille" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EqualsTest" />
+      <option name="METHOD_NAME" value="testHashCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EqualsTest.testHashCode" />
+        <item itemvalue="JUnit.EqualsTest.testEquals" />
         <item itemvalue="Application.Grille" />
         <item itemvalue="Application.Table" />
         <item itemvalue="Application.Battle" />
@@ -150,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575380226911</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ajout classe equals pour tester la définition des méthodes equals et hashcode">
+      <created>1575455606688</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575455606688</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +194,7 @@
     <MESSAGE value="Mise à jour des classes" />
     <MESSAGE value="affichage d'un tableau pour test, modifications classes" />
     <MESSAGE value="ajouts de méthodes, valeurs pour chaque case du tableau" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajouts de méthodes, valeurs pour chaque case du tableau" />
+    <MESSAGE value="ajout classe equals pour tester la définition des méthodes equals et hashcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout classe equals pour tester la définition des méthodes equals et hashcode" />
   </component>
 </project>
