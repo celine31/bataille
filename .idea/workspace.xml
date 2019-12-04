@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ea198f2-e533-4594-b1ea-a058b8bea6c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/StateBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Equals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TableTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Battle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Battle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bataille.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bataille.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coordinates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Direction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HidingBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HidingBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ModelShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ModelShip.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StateSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StateSquare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Table.java" afterDir="false" />
     </list>
@@ -21,8 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -39,10 +41,26 @@
   <component name="ProjectId" id="1UQ7TwensylQxhxl6BL0neAABdT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/iutvalence_java_tp_2014_g3E_binome3-master" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -56,9 +74,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Table">
+  <component name="RunManager" selected="Application.Grille">
     <configuration name="Battle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Battle" />
+      <module name="bataille" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Grille" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Grille" />
       <module name="bataille" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,6 +98,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Grille" />
         <item itemvalue="Application.Table" />
         <item itemvalue="Application.Battle" />
       </list>
@@ -117,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575367545900</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ajouts de méthodes, valeurs pour chaque case du tableau">
+      <created>1575380226911</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575380226911</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +171,7 @@
     <MESSAGE value="ajout enum Modelship" />
     <MESSAGE value="Mise à jour des classes" />
     <MESSAGE value="affichage d'un tableau pour test, modifications classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="affichage d'un tableau pour test, modifications classes" />
+    <MESSAGE value="ajouts de méthodes, valeurs pour chaque case du tableau" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajouts de méthodes, valeurs pour chaque case du tableau" />
   </component>
 </project>

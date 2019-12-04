@@ -1,22 +1,26 @@
+
 public class HidingBoard {
 //class table of boads
 
 Coordinates coordinates= new Coordinates();
 
-  public void squareState(Coordinates coordinates){
+  public void squareState(String coordinates){
     throw new UnsupportedOperationException();
   }
 
   public void putShip(Board board){
-    Board ship= new Board(ModelShip.CARRIER, Direction.WEST, coordinates);
-    Board ship2 = new Board(ModelShip.SUBMARINE, Direction.NORTH,coordinates);
-    Board ship3 = new Board(ModelShip.DESTROYER, Direction.SUD,coordinates);
-    Board ship4 = new Board(ModelShip.CRUISER, Direction.WEST,coordinates);
+   switch(board.getDirection()){
+     case EAST:
 
+   }
     //throw new UnsupportedOperationException();
   }
-
-
+/*
+  Board ship= new Board(ModelShip.CARRIER, Direction.WEST, coordinates);
+  Board ship2 = new Board(ModelShip.SUBMARINE, Direction.NORTH,coordinates);
+  Board ship3 = new Board(ModelShip.DESTROYER, Direction.SOUTH,coordinates);
+  Board ship4 = new Board(ModelShip.CRUISER, Direction.EAST,coordinates);
+*/
 
  // public class Flotte {
    // private ArrayList bateaux;

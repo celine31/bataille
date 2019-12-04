@@ -1,24 +1,21 @@
+import java.util.HashMap;
+import java.util.Map;
+
 public class Coordinates {
   //class coordinates
   public String getX() {
     return x;
   }
 
-  public void setX(String x) {
-    this.x = x;
-  }
-
   public int getY() {
     return y;
-  }
-
-  public void setY(int y) {
-    this.y = y;
   }
 
   private String x;
   private int y;
 
-
-
+  public Coordinates(String x, int y){
+    this.x=x;
+    this.y=y;
+  }
 }

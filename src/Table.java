@@ -4,7 +4,8 @@ import java.util.Map;
 
 public class Table {
 
-   // create table
+
+  // create table
   public static Map<String, String> do_table() {
     Map<String,String> map =new HashMap<String, String>();
     int i;
@@ -27,8 +28,8 @@ public class Table {
       System.out.print(i + 1 + "  ");
       for (j = 1; j < 11; j = j + 1) {
         map.put(val,Integer.toString(j));
-        }
-      System.out.println();
+      }
+      System.out.println(map);
     }
     return map;
   }
@@ -37,3 +38,4 @@ public class Table {
     do_table();
   }
 }
+
